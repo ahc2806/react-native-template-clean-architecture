@@ -1,5 +1,5 @@
 {
-  "name": "@ahc2806/react-native-template-clean-architecture",
+  "name": "react-native-template-clean-architecture",
   "version": "0.0.1",
   "description": "This is a template for creating React Native projects based on Clean Architecture",
   "scripts": {
