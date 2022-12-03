@@ -1,0 +1,32 @@
+{
+  "name": "@ahc2806/react-native-template-clean-architecture",
+  "version": "0.0.1",
+  "description": "This is a template for creating React Native projects based on Clean Architecture",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahc2806/react-native-template-clean-architecture.git"
+  },
+  "keywords": [
+    "template",
+    "starter",
+    "react-native",
+    "react",
+    "native",
+    "javascript",
+    "clean-architecture",
+    "clean",
+    "architecture"
+  ],
+  "author": "Alonso Hernandez Cortez <alonsohernandezcortez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahc2806/react-native-template-clean-architecture/issues"
+  }
+}
