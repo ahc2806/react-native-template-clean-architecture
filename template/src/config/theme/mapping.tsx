@@ -12,23 +12,23 @@ export default {
 
     'text-heading-2-font-size': 32,
     'text-heading-2-font-weight': isIOS ? '800' : 'normal',
-    'text-heading-2-font-family': 'ProximaNova-Extrabold',
+    'text-heading-2-font-family': 'ProximaNova-Black',
 
     'text-heading-3-font-size': 30,
     'text-heading-3-font-weight': isIOS ? '800' : 'normal',
-    'text-heading-3-font-family': 'ProximaNova-Extrabold',
+    'text-heading-3-font-family': 'ProximaNova-Black',
 
     'text-heading-4-font-size': 26,
     'text-heading-4-font-weight': isIOS ? '800' : 'normal',
-    'text-heading-4-font-family': 'ProximaNova-Extrabold',
+    'text-heading-4-font-family': 'ProximaNova-Black',
 
     'text-heading-5-font-size': 22,
     'text-heading-5-font-weight': isIOS ? '800' : 'normal',
-    'text-heading-5-font-family': 'ProximaNova-Extrabold',
+    'text-heading-5-font-family': 'ProximaNova-Black',
 
     'text-heading-6-font-size': 18,
     'text-heading-6-font-weight': isIOS ? '800' : 'normal',
-    'text-heading-6-font-family': 'ProximaNova-Extrabold',
+    'text-heading-6-font-family': 'ProximaNova-Black',
 
     'text-subtitle-1-font-size': 15,
     'text-subtitle-1-font-weight': isIOS ? '600' : 'normal',
@@ -56,7 +56,7 @@ export default {
 
     'text-label-font-size': 12,
     'text-label-font-weight': isIOS ? '800' : 'normal',
-    'text-label-font-family': 'ProximaNova-Extrabold',
+    'text-label-font-family': 'ProximaNova-Bold',
 
     'size-tiny': 24,
     'size-small': 32,

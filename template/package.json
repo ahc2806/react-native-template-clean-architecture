@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@eva-design/eva": "^2.1.1",
-    "@react-navigation/native": "^6.0.16",
-    "@react-navigation/native-stack": "^6.9.4",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/native-stack": "^6.9.5",
     "@ui-kitten/components": "^5.1.2",
     "@ui-kitten/eva-icons": "^5.1.2",
     "react": "18.1.0",
