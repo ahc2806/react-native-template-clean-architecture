@@ -4,7 +4,10 @@ This is a template for creating React Native projects based on Clean Architectur
 
 ## :star: Features:
 
-- Pre-configured folder structure
+- Pre-configured ProximaNova font
+- Pre-configured libraries 'React Native Vector Icons' and 'Eva Icons' for icons
+- Pre-configured folder structure for the Clean Architecture
+- Preconfigured 'React Native Asset' library to automatically link fonts
 - Navigation using [react-navigation](https://reactnavigation.org/) (v6)
 - State management using [redux](https://es.redux.js.org/)
 - Redux middleware [redux-saga](https://redux-saga.js.org/r)

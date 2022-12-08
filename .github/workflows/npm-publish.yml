@@ -1,0 +1,25 @@
+name: Publish Package to npmjs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    # if: '!github.event.release.prerelease'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.5.0
+      - name: Node
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      # - run: npm --no-git-tag-version version ${{ github.event.release.tag_name }}
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
