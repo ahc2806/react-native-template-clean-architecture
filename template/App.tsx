@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {
   Text,
   Layout,
@@ -7,9 +7,10 @@ import {
   ApplicationProvider,
 } from '@ui-kitten/components';
 import * as eva from '@eva-design/eva';
+import { Mapping } from '@config/theme';
 import { StyleSheet } from 'react-native';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import Icon from 'react-native-vector-icons/dist/FontAwesome5';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const Home = () => {
@@ -28,7 +29,7 @@ export default () => {
     <SafeAreaProvider>
       <IconRegistry icons={[EvaIconsPack]} />
 
-      <ApplicationProvider {...eva} theme={eva.dark}>
+      <ApplicationProvider {...eva} theme={eva.dark} customMapping={Mapping}>
         <Home />
       </ApplicationProvider>
     </SafeAreaProvider>

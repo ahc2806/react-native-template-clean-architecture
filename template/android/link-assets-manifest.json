@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Black.ttf",
+      "sha1": "a6394008a379b475096d62250fd18d68552218c2"
+    },
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Bold.ttf",
+      "sha1": "61cb82044a25b977c121e9c54e0f508b9be0cc86"
+    },
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Extrabold.ttf",
+      "sha1": "b6736dfd5a8c49bf16358d61d102769109248431"
+    },
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Medium.ttf",
+      "sha1": "f5ef42986df2bbb64c847ccf3305314a06966d36"
+    },
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Regular.ttf",
+      "sha1": "d4bda75f55f058a3ece78ba535f8596f91953db3"
+    },
+    {
+      "path": "src/ui/assets/fonts/ProximaNova-Thin.ttf",
+      "sha1": "88f4705222df933a7a8dbcde63882e79f0b84ba3"
+    }
+  ]
+}
