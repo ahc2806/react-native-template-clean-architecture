@@ -3,7 +3,10 @@
   "version": "0.0.5",
   "description": "This is a template for creating React Native projects based on Clean Architecture",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "release:major": "npx release-it -- major",
+    "release:minor": "npx release-it -- minor",
+    "release:patch": "npx release-it -- patch"
   },
   "files": [
     "template",
@@ -28,11 +31,25 @@
     "kitten",
     "ui-kit",
     "ui-kitten",
-    "design-system"
+    "design-system",
+    "boilerplate"
   ],
   "author": "Alonso Hernandez Cortez <alonsohernandezcortez@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ahc2806/react-native-template-clean-architecture/issues"
+  },
+  "release-it": {
+    "git": {
+      "requireBranch": "main",
+      "commitMessage": "chore: Release v${version}"
+    },
+    "github": {
+      "release": true
+    }
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.5.1"
   }
 }
