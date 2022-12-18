@@ -44,8 +44,11 @@
       "requireBranch": "main",
       "commitMessage": "chore: Release v${version}"
     },
-    "github": {
-      "release": true
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
     }
   },
   "devDependencies": {
