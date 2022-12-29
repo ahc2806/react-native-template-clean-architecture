@@ -46,9 +46,16 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": "angular",
-        "infile": "CHANGELOG.md"
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "preset": "conventionalcommits",
+          "infile": "CHANGELOG.md"
+        }
       }
+    },
+    "github": {
+      "release": true,
+      "preRelease": false
     }
   },
   "devDependencies": {
