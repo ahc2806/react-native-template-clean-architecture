@@ -46,11 +46,8 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "infile": "CHANGELOG.md",
-        "preset": {
-          "preset": "conventionalcommits",
-          "infile": "CHANGELOG.md"
-        }
+        "preset": "conventionalcommits",
+        "infile": "CHANGELOG.md"
       }
     },
     "github": {
