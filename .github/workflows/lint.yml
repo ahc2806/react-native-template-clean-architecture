@@ -1,4 +1,4 @@
-name: lint & typescript check
+name: Lint & TypeScript check
 
 on: [push, pull_request]
 
