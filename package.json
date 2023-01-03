@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-clean-architecture",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "This is a template for creating React Native projects based on Clean Architecture",
   "scripts": {
     "test": "exit 0",
@@ -55,7 +55,8 @@
         "infile": "CHANGELOG.md",
         "preset": {
           "name": "conventionalcommits",
-          "types": [{
+          "types": [
+            {
               "type": "feat",
               "section": "Features"
             },
