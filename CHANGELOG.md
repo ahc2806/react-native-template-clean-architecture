@@ -1,5 +1,7 @@
 
 
+### [0.2.4](https://github.com/ahc2806/react-native-template-clean-architecture/compare/0.2.3...0.2.4) (2023-01-04)
+
 ### [0.2.3](https://github.com/ahc2806/react-native-template-clean-architecture/compare/0.2.2...0.2.3) (2023-01-03)
 
 ### [0.2.2](https://github.com/ahc2806/react-native-template-clean-architecture/compare/0.2.1-rc.0...0.2.2) (2023-01-03)
