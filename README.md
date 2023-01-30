@@ -4,14 +4,15 @@ This is a template for creating React Native projects based on Clean Architectur
 
 ## :star: Features:
 
-- Pre-configured ProximaNova font
-- Pre-configured libraries 'React Native Vector Icons' and 'Eva Icons' for icons
-- Pre-configured folder structure for the Clean Architecture
-- Preconfigured 'React Native Asset' library to automatically link fonts
-- Navigation using [react-navigation](https://reactnavigation.org/) (v6)
-- State management using [redux](https://es.redux.js.org/)
-- Redux middleware [redux-saga](https://redux-saga.js.org/r)
-- Use of the [Ui-Kitten](https://akveo.github.io/react-native-ui-kitten/) design system to build stunning and consistent interfaces using atomic components by following the Eva Design System specifications.
+-   Pre-configured ProximaNova font
+-   Pre-configured libraries 'React Native Vector Icons' and 'Eva Icons' for icons
+-   Pre-configured folder structure for the Clean Architecture
+-   Preconfigured 'React Native Asset' library to automatically link fonts
+-   Navigation using [react-navigation](https://reactnavigation.org/) (v6)
+-   State management using [redux](https://es.redux.js.org/)
+-   Redux middleware [redux-saga](https://redux-saga.js.org/r)
+-   Use of the [Ui-Kitten](https://akveo.github.io/react-native-ui-kitten/) design system to build stunning and consistent interfaces using atomic components by following the Eva Design System specifications.
+-   Use of [Babel Plugin Module Resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) for static paths of project folders, configured in babel.config.js
 
 ## :warning: Prerequisites
 
@@ -47,7 +48,7 @@ The template will automatically install the `npm` dependencies and the `pods` (i
 #### e.g. `react-native@0.70.x`
 
 ```sh
-npx react-native init ProjectName --template react-native-template-clean-architecture@0.0.1
+npx react-native init ProjectName --template react-native-template-clean-architecture@0.2.4
 ```
 
 See the below table to find out which version of the template to use.
@@ -57,6 +58,7 @@ See the below table to find out which version of the template to use.
 | React Native | Template |
 | ------------ | -------- |
 | 0.70         | 0.0.\*   |
+| 0.71         | 0.4.\*   |
 
 ## :bookmark: License
 
