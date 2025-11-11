@@ -1,27 +1,8 @@
-// prettier-ignore
 {
-  "extends": "@tsconfig/react-native/tsconfig.json" /* Recommended React Native TSConfig base */,
+  "extends": "@react-native/typescript-config",
   "compilerOptions": {
-    "baseUrl": "./",
-    "jsx": "react",
-    "lib": ["es6"],
-    "types": ["node"],
-    "strict": true,
-    "noEmit": true,
-    "allowJs": true,
-    "target": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
-    "paths": {
-      "@config/*": ["src/config/*"],
-      "@data/*": ["src/data/*"],
-      "@domain/*": ["src/domain/*"],
-      "@infraestructure/*": ["src/infrastructure/*"],
-      "@ui/*": ["src/ui/*"]
-    }
+    "types": ["jest"],
   },
-  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
 }
