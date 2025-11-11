@@ -1,4 +1,18 @@
-node_modules/
-.vscode/
+# Dependencies
+/node_modules
+
+# OSX
 .DS_Store
-.idea/
+.vscode/
+
+# Cache and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Files in template directory (when manually testing)
+/template/node_modules
+/template/yarn.lock
+
+# Gradle files that can be ignored
+.gradle/
