@@ -1,0 +1,15 @@
+
+# Verificar que el mensaje del commit no esté vacío
+if [ -z "$(cat "$1")" ]; then
+  echo "El mensaje del commit no puede estar vacío" >&2
+  exit 1
+fi
+
+# Verificar que el mensaje del commit siga un formato específico (por ejemplo, que comience con un tipo de commit)
+if ! grep -qE "^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)" "$1"; then
+  echo "El mensaje del commit debe comenzar con uno de los siguientes tipos: feat, fix, docs, style, refactor, test, chore, build, ci, perf" >&2
+  exit 1
+fi
+
+# Ejecutar commitlint para validar el mensaje del commit
+npx --no-install commitlint --edit "$1"

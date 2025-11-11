@@ -1,15 +1,21 @@
 {
   "name": "react-native-template-clean-architecture",
   "version": "0.5.0",
+  "author": "Alonso Hernandez Cortez <alonsohernandezcortez@gmail.com>",
   "description": "This is a template for creating React Native projects based on Clean Architecture",
+  "license": "MIT",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "exit 0",
-    "release:major": "npx release-it -- major",
-    "release:minor": "npx release-it -- minor",
-    "release:patch": "npx release-it -- patch"
+    "commit": "cz",
+    "prepare": "node .husky/install.mjs",
+    "release": "standard-version",
+    "test": "exit 0"
   },
   "files": [
-    "template",
+    "template/*",
     "template.config.js"
   ],
   "repository": {
@@ -18,6 +24,7 @@
   },
   "keywords": [
     "javascript",
+    "typescript",
     "react",
     "native",
     "react-native",
@@ -34,44 +41,23 @@
     "design-system",
     "boilerplate"
   ],
-  "author": "Alonso Hernandez Cortez <alonsohernandezcortez@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ahc2806/react-native-template-clean-architecture/issues"
   },
-  "release-it": {
-    "git": {
-      "requireBranch": "main",
-      "commitMessage": "chore: Release v${version}"
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "publish": false
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "infile": "CHANGELOG.md",
-        "preset": {
-          "name": "conventionalcommits",
-          "types": [
-            {
-              "type": "feat",
-              "section": "Features"
-            },
-            {
-              "type": "fix",
-              "section": "Bug Fixes"
-            },
-            {}
-          ]
-        }
-      }
-    }
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@release-it/conventional-changelog": "^5.1.1",
-    "release-it": "^15.6.0"
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/types": "^20.0.0",
+    "commitizen": "^4.3.1",
+    "conventional-changelog-atom": "^5.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
